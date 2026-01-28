@@ -1,11 +1,15 @@
-# Wikipedia Article Generator
+<h1 align="center">Wikipedia Article Generator</h1>
+
+<div align="center">
+  <img src="assets/vid-wikipedia-generator.gif" width="720" alt="Wikipedia Article Generator – enter a concept and get a streamed Wikipedia-style article" />
+</div>
 
 ## What is this?
 
 A TypeScript/Node example for how to integrate Latitude into your webapp. This includes the two approaches we advise:
 
 1. **Using Latitude as the gateway:** Run your prompts through Latitude.
-2. **Using your own provider:** Use Latitude as a prompt versioning tool to pull your prompts from, and then wrap your provider calls with Latitude's telemetry (e.g. `logs.create`) to get traces into Latitude.
+2. **Using your own provider:** Use Latitude as a prompt versioning tool to pull your prompts from, and then wrap your provider calls with Latitude's telemetry package to get traces into Latitude.
 
 ## How to run it
 
