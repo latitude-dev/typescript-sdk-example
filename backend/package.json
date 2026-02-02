@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@latitude-data/sdk": "^5.2.1",
-    "@latitude-data/telemetry": "^1.1.0",
+    "@latitude-data/telemetry": "^1.1.1",
     "dotenv": "^16.4.5",
     "express": "^4.21.0",
     "openai": "^4.73.0"

@@ -14,8 +14,8 @@ importers:
         specifier: ^5.2.1
         version: 5.3.1(typescript@5.6.3)
       '@latitude-data/telemetry':
-        specifier: ^1.1.0
-        version: 1.1.0(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@4.104.0(zod@4.1.8))(typescript@5.6.3)
+        specifier: ^1.1.1
+        version: 1.1.1(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@4.104.0(zod@3.25.76))(typescript@5.6.3)
       dotenv:
         specifier: ^16.4.5
         version: 16.6.1
@@ -24,7 +24,7 @@ importers:
         version: 4.22.1
       openai:
         specifier: ^4.73.0
-        version: 4.104.0(zod@4.1.8)
+        version: 4.104.0(zod@3.25.76)
     devDependencies:
       '@types/express':
         specifier: ^4.17.21
@@ -612,8 +612,8 @@ packages:
     peerDependencies:
       typescript: ^5.5.4
 
-  '@latitude-data/telemetry@1.1.0':
-    resolution: {integrity: sha512-YJ4Kl9V8Xy1Qc/K9d+uitd6vfVxAftGkxpl/znIpjyDKbrMDB8j/mJRG2al9zsW8ym/qbQ5czvP36A4RX1yEaA==}
+  '@latitude-data/telemetry@1.1.1':
+    resolution: {integrity: sha512-eiElP2yFyyaobMza9g406gJVBkb9F60xU2nGdAnYEiM0OoXI/xyocXsCcwPvtGfK5eSSNVODfWM8cCuUl3+G9A==}
     peerDependencies:
       typescript: ^5.5.4
 
@@ -3196,14 +3196,14 @@ snapshots:
 
   '@js-sdsl/ordered-map@4.4.2': {}
 
-  '@langchain/core@0.3.80(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@4.104.0(zod@4.1.8))':
+  '@langchain/core@0.3.80(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@4.104.0(zod@3.25.76))':
     dependencies:
       '@cfworker/json-schema': 4.1.1
       ansi-styles: 5.2.0
       camelcase: 6.3.0
       decamelize: 1.2.0
       js-tiktoken: 1.0.21
-      langsmith: 0.3.87(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@4.104.0(zod@4.1.8))
+      langsmith: 0.3.87(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@4.104.0(zod@3.25.76))
       mustache: 4.2.0
       p-queue: 6.6.2
       p-retry: 4.6.2
@@ -3228,7 +3228,7 @@ snapshots:
       - encoding
       - ws
 
-  '@latitude-data/telemetry@1.1.0(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@4.104.0(zod@4.1.8))(typescript@5.6.3)':
+  '@latitude-data/telemetry@1.1.1(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@4.104.0(zod@3.25.76))(typescript@5.6.3)':
     dependencies:
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/baggage-span-processor': 0.3.1(@opentelemetry/api@1.9.0)
@@ -3236,13 +3236,14 @@ snapshots:
       '@opentelemetry/core': 1.30.1(@opentelemetry/api@1.9.0)
       '@opentelemetry/exporter-trace-otlp-http': 0.57.2(@opentelemetry/api@1.9.0)
       '@opentelemetry/instrumentation': 0.57.2(@opentelemetry/api@1.9.0)
+      '@opentelemetry/otlp-transformer': 0.57.2(@opentelemetry/api@1.9.0)
       '@opentelemetry/resources': 1.30.1(@opentelemetry/api@1.9.0)
       '@opentelemetry/sdk-trace-node': 1.30.1(@opentelemetry/api@1.9.0)
       '@opentelemetry/semantic-conventions': 1.34.0
       '@traceloop/instrumentation-anthropic': 0.22.2
       '@traceloop/instrumentation-bedrock': 0.22.2
       '@traceloop/instrumentation-cohere': 0.22.2
-      '@traceloop/instrumentation-langchain': 0.22.2(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@4.104.0(zod@4.1.8))
+      '@traceloop/instrumentation-langchain': 0.22.2(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@4.104.0(zod@3.25.76))
       '@traceloop/instrumentation-llamaindex': 0.22.2
       '@traceloop/instrumentation-openai': 0.22.2
       '@traceloop/instrumentation-together': 0.22.2
@@ -3551,9 +3552,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@traceloop/instrumentation-langchain@0.22.2(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@4.104.0(zod@4.1.8))':
+  '@traceloop/instrumentation-langchain@0.22.2(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@4.104.0(zod@3.25.76))':
     dependencies:
-      '@langchain/core': 0.3.80(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@4.104.0(zod@4.1.8))
+      '@langchain/core': 0.3.80(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@4.104.0(zod@3.25.76))
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/core': 2.5.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/instrumentation': 0.203.0(@opentelemetry/api@1.9.0)
@@ -4731,7 +4732,7 @@ snapshots:
     dependencies:
       json-buffer: 3.0.1
 
-  langsmith@0.3.87(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@4.104.0(zod@4.1.8)):
+  langsmith@0.3.87(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@4.104.0(zod@3.25.76)):
     dependencies:
       '@types/uuid': 10.0.0
       chalk: 4.1.2
@@ -4742,7 +4743,7 @@ snapshots:
     optionalDependencies:
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/sdk-trace-base': 1.30.1(@opentelemetry/api@1.9.0)
-      openai: 4.104.0(zod@4.1.8)
+      openai: 4.104.0(zod@3.25.76)
 
   levn@0.4.1:
     dependencies:
@@ -5193,6 +5194,20 @@ snapshots:
   once@1.4.0:
     dependencies:
       wrappy: 1.0.2
+
+  openai@4.104.0(zod@3.25.76):
+    dependencies:
+      '@types/node': 18.19.130
+      '@types/node-fetch': 2.6.13
+      abort-controller: 3.0.0
+      agentkeepalive: 4.6.0
+      form-data-encoder: 1.7.2
+      formdata-node: 4.4.1
+      node-fetch: 2.7.0
+    optionalDependencies:
+      zod: 3.25.76
+    transitivePeerDependencies:
+      - encoding
 
   openai@4.104.0(zod@4.1.8):
     dependencies:
